@@ -6,12 +6,12 @@ function App() {
             <div className='header center'>
                 <h1>BMI Tracker</h1>
             </div>
-            <div className='bmi-form center'>
-                <div className='input-left inline-block'>
+            <div className='bmi-form'>
+                <div className='input-item'>
                     <label htmlFor='weight'>Weight (in kg)</label>
                     <input id='weight' type='text' />
                 </div>
-                <div className='input-right inline-block'>
+                <div className='input-item'>
                     <label htmlFor='height'>Height (in cm)</label>
                     <input id='height' type='text' />
                 </div>
