@@ -59,6 +59,10 @@ input {
     border-radius: 44px;
     border: none;
     padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: content-box;
+    font-family: inherit;
 }
 
 .input-item {
@@ -66,4 +70,9 @@ input {
     width: 50%;
     float: left;
     padding: 0 0.75rem;
+}
+
+
+input::placeholder {
+  color: #d1d1d1;
 }

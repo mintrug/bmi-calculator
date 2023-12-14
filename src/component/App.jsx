@@ -9,11 +9,11 @@ function App() {
             <div className='bmi-form'>
                 <div className='input-item'>
                     <label htmlFor='weight'>Weight (in kg)</label>
-                    <input id='weight' type='text' />
+                    <input id='weight' type='number' min="1" max="999" placeholder='50' />
                 </div>
                 <div className='input-item'>
                     <label htmlFor='height'>Height (in cm)</label>
-                    <input id='height' type='text' />
+                    <input id='height' type='number' min="1" max="999" placeholder='176' />
                 </div>
             </div>
             <div className='calculate-btn'>
